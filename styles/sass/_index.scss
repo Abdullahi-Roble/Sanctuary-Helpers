@@ -1,7 +1,7 @@
 
 // Header Styling
 
-header {
+.head-home {
     background: url(../assets/header-home.jpg) top right no-repeat;
     min-height: 100vh;
     position: relative;
@@ -18,11 +18,8 @@ header {
             display: flex;
             flex: 1 0 50%;
             justify-content: space-around;
-            padding: 3% 3.5% 0 0;
-        }
-
-        li {
-            display: flex;
+            list-style: none;
+            // padding: 3% 3.5% 0 0;
         }
 
         a {
@@ -32,15 +29,13 @@ header {
 
             &:hover,
             &:active {
-                border-bottom: 5px solid $yellow;
-                
-
+                border-bottom: 5px solid $yellow;                
             }
         }
     }
 }
 
-.title {
+.home-title {
 
     h1 {
         width: 50%;
@@ -128,7 +123,6 @@ header {
     }
 }
 
-
     // Section 4 Styling
 
 .new-pro {
@@ -139,7 +133,6 @@ header {
 
     img {
         position: absolute;
-
     }
 
     figcaption {
@@ -172,7 +165,6 @@ header {
         figcaption {
             padding: 5% 0 70% 9%;
         }
-   
     }
 }   
 

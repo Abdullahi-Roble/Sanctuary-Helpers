@@ -1,0 +1,198 @@
+
+// Header Styling
+
+.blog-head {
+    background: url(../assets/blog-image.jpg) top right no-repeat;
+    min-height: 100vh;
+    position: relative;
+}
+
+.blog-head {
+
+    min-height: 75vh;
+
+    .menu {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        ul {
+            width: 40%;
+            // flex: 1 0 50%;
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+        }
+
+        .logo {
+            width: 20%;
+            // padding-left: 8%;
+        }
+
+        h4 {
+            padding: 0 10% 0 0;
+        }
+
+        a {
+            font-weight: 700;
+            line-height: 1.45rem;
+            letter-spacing: 1.4px;
+
+            &:hover,
+            &:active {
+                border-bottom: 5px solid $yellow;                
+            }
+        }
+    }
+}
+
+    // Section 1 Styling - Main Content
+
+.main-content {
+    background: $ice;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    position: relative;
+
+    .blog-post {
+        background: $white;
+        width: 60%;
+        box-shadow: 10px 0 $yellow;
+        border-bottom: 10px solid $yellow;
+
+        img {
+            width: 60%;
+            position: absolute;
+            top: -160px;
+            left: 0;
+            // background: $yellow;
+            box-shadow: 10px 20px $yellow;
+            // border-right: 5px solid $yellow;
+            
+            // &::after {
+            //     content: '';
+            //     width: 5px;
+            //     height: 5px;
+            //     position: absolute;
+            //     z-index: 0;
+            //     background: $yellow;
+            //     display: block;
+            // }
+        }
+    }
+
+    .article-text {
+        padding: 55% 5% 0 8%;
+    }
+
+    .late-post {
+        width: 40%;
+        padding: 5% 0 0 15.8%;
+
+        .aside-image {
+            background: $yellow;
+            box-shadow: -20px 20px $yellow;
+        }
+
+        h3 {
+            margin: 0;
+            padding: 1% 0;
+        }
+    }
+    
+    .aside-text {
+        background: $yellow;
+        box-shadow: -20px 0 $yellow;
+        padding: 2% 0;
+        
+        .aside-list {
+            list-style: outside;
+        }
+    }
+}    
+
+    // Section 2 Styling - Comments section
+
+.comment-section,
+.submission-form {
+    background: $ice;
+    padding-left: 5%;
+}
+
+.comment-section {
+    padding-right: 40%;
+
+    h3 {
+        margin: 0;
+        padding: 5% 0 3% 0;
+    }
+
+    p {
+        margin: 0;
+        padding-left: 5%;
+
+        &.date {
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+    }
+
+    .comment-one,
+    .comment-two {
+        display: flex;
+        flex-flow: row nowrap;
+        align-items: flex-start;
+    }
+
+    .comment-one {
+        padding-top: 5%;
+    }
+
+    .comment-two {
+        padding: 10% 0 8% 0;
+    }
+
+    .comment-pic {
+        width: 30%;
+    }
+}
+
+    // Section 3 Styling - Submission Form
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+    width: 60%;
+    padding-bottom: 5%;
+
+    .short-input {
+        display: flex;
+        flex: 1 0 50%;
+        justify-content: space-between;
+    }
+
+    input,
+    textarea {
+        background: $ice;
+        border: none;
+    }
+
+    input {
+        border-bottom: 2px solid $black;
+        width: 45%;
+        padding: 0 0 2% 2%;
+    }
+
+    textarea {
+        border: 2px solid $black;
+        margin: 3% 0;
+        padding: 2%;
+    }
+
+    button {
+        color: $white;
+    }
+}    
+
