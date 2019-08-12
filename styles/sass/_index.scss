@@ -1,0 +1,204 @@
+
+// Header Styling
+
+header {
+    background: url(../assets/header-home.jpg) top right no-repeat;
+    min-height: 100vh;
+    position: relative;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: flex-end;
+
+    .menu {
+        width: 40%;
+
+        ul {
+            display: flex;
+            flex: 1 0 50%;
+            justify-content: space-around;
+            padding: 3% 3.5% 0 0;
+        }
+
+        li {
+            display: flex;
+        }
+
+        a {
+            font-weight: 700;
+            line-height: 1.45rem;
+            letter-spacing: 1.4px;
+
+            &:hover,
+            &:active {
+                border-bottom: 5px solid $yellow;
+                
+
+            }
+        }
+    }
+}
+
+.title {
+
+    h1 {
+        width: 50%;
+        padding: 0 0 0.25% 7.65%;
+        margin: 2.9% 5% 0 0;
+    }
+}
+
+.blue-sofa {
+    position: absolute;
+    top: 300px;
+    left: -80px;
+}
+
+// Main Styling
+    // Section 1 styling
+
+.new-materia {
+    background: $white;
+    padding: 5% 0 8% 0;
+
+    figure {
+        display: flex;
+        flex-flow: row nowrap;
+
+        figcaption {
+            width: 65%;
+        }
+
+        img {
+            width: 25%;
+            height: 25%;
+            margin: 13% 0 0 10%;
+            box-shadow: -20px 20px $yellow;
+        }
+    }
+
+    h2 {
+        margin: 0;
+        padding-top: 19.75%;
+    }
+}
+
+    // Section 2 Styling
+
+.gall-decor {
+    background: $ice;
+
+    .gallery {
+        display: flex;
+        justify-content: space-between;
+        padding: 7% 0;
+    }
+}
+
+    // Section 3 Styling
+
+.custom-menu {
+    background: $white;
+    padding: 3% 0 8% 0;
+}    
+
+.mid-links {
+    display: flex;
+    flex-flow: row nowrap;
+    
+    li {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    
+    .mid-icon {
+        padding: 5.5% 3% 0 0;
+        
+        i {
+            border: 8px solid $yellow;
+            border-radius: 50%;
+            font-size: 1.1rem;
+            background: $yellow;
+        }
+    }
+
+    h2 {
+        margin-bottom: 0;
+    }
+}
+
+
+    // Section 4 Styling
+
+.new-pro {
+    background: $ice;
+    display: flex;
+    flex-flow: row nowrap;
+    position: relative;
+
+    img {
+        position: absolute;
+
+    }
+
+    figcaption {
+        padding: 5% 0;
+        width: 70%;
+    }
+
+    .poly-local {
+
+        img {
+            top: -5%;
+            box-shadow: 20px 20px $yellow;
+        }
+
+        figcaption {
+            text-align: right;
+            padding: 70% 0 5% 5%;
+            margin-left: 23.5%;
+        }
+    }    
+    
+    .pro-basket {
+
+        img {
+            top: 56%;
+            right: 0;
+            box-shadow: -20px 20px $yellow;
+        }
+
+        figcaption {
+            padding: 5% 0 70% 9%;
+        }
+   
+    }
+}   
+
+    // Section 5 Styling
+
+.style-decor {
+    background: $white;
+
+    .style-down {
+        padding: 5% 0;
+        text-align: center;
+
+        p {
+            text-align: left;
+        }
+    }
+}  
+
+    // Footer Styling
+
+footer {
+    background: $black;
+    text-align: center;
+    
+    p {
+        color: $white;
+        margin: 0;
+    }
+}    
