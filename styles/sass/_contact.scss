@@ -1,0 +1,49 @@
+
+    // Header Styling
+    
+.contact-head {
+    background: url(../assets/contact-image.jpg) top right no-repeat;
+    min-height: 77vh;
+    position: relative;
+}    
+
+    // Section 1 - Contact Form
+
+.contact-form {
+    background: $ice;
+    display: flex;
+    justify-content: flex-end;
+
+    form {
+        background: $white;
+        padding: 5%;
+        position: absolute;
+        top: 55%;
+        left: 4%;
+        box-shadow: 20px 20px $yellow;
+
+        input,
+        textarea {
+            background: $white;
+        } 
+    }       
+
+    .media-reach {
+        padding: 5% 8% 10% 3%;
+
+        .social-media {
+
+            p {
+                padding: 5% 0;
+            }
+
+            i {
+                padding-right: 10%;
+            }
+        }
+
+        p {
+            margin: 0;
+        }
+    }
+}

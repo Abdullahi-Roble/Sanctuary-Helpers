@@ -1,50 +1,10 @@
 
-// Header Styling
+    // Header Styling
 
 .blog-head {
     background: url(../assets/blog-image.jpg) top right no-repeat;
-    min-height: 100vh;
-    position: relative;
-}
-
-.blog-head {
-
     min-height: 75vh;
-
-    .menu {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        ul {
-            width: 40%;
-            // flex: 1 0 50%;
-            display: flex;
-            justify-content: space-around;
-            list-style: none;
-        }
-
-        .logo {
-            width: 20%;
-            // padding-left: 8%;
-        }
-
-        h4 {
-            padding: 0 10% 0 0;
-        }
-
-        a {
-            font-weight: 700;
-            line-height: 1.45rem;
-            letter-spacing: 1.4px;
-
-            &:hover,
-            &:active {
-                border-bottom: 5px solid $yellow;                
-            }
-        }
-    }
+    position: relative;
 }
 
     // Section 1 Styling - Main Content
@@ -187,7 +147,7 @@ form {
 
     textarea {
         border: 2px solid $black;
-        margin: 3% 0;
+        margin: 5% 0;
         padding: 2%;
     }
 
