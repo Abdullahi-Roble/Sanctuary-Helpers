@@ -27,19 +27,7 @@
             position: absolute;
             top: -160px;
             left: 0;
-            // background: $yellow;
             box-shadow: 10px 20px $yellow;
-            // border-right: 5px solid $yellow;
-            
-            // &::after {
-            //     content: '';
-            //     width: 5px;
-            //     height: 5px;
-            //     position: absolute;
-            //     z-index: 0;
-            //     background: $yellow;
-            //     display: block;
-            // }
         }
     }
 
@@ -114,7 +102,11 @@
         padding: 10% 0 8% 0;
     }
 
-    .comment-pic {
+    .comment-pic-one {
+        width: 40%;
+    }
+
+    .comment-pic-two {
         width: 30%;
     }
 }

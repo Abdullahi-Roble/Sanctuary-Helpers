@@ -241,6 +241,10 @@ html body button a {
   color: #f5f5f5;
 }
 
+html body img {
+  max-width: 100%;
+}
+
 html body .wrapper {
   max-width: 1300px;
   width: 90%;
@@ -574,7 +578,11 @@ footer p {
   padding: 10% 0 8% 0;
 }
 
-.comment-section .comment-pic {
+.comment-section .comment-pic-one {
+  width: 40%;
+}
+
+.comment-section .comment-pic-two {
   width: 30%;
 }
 
