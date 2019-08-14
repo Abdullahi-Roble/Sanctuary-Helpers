@@ -241,6 +241,10 @@ html body button a {
   color: #f5f5f5;
 }
 
+html body i {
+  font-size: 1.2rem;
+}
+
 html body img {
   max-width: 100%;
 }
@@ -305,8 +309,9 @@ html body a {
 
 .blue-sofa {
   position: absolute;
-  top: 300px;
-  left: -80px;
+  top: 40%;
+  left: -5.3%;
+  max-width: 100%;
 }
 
 .new-materia {
@@ -679,6 +684,356 @@ form button {
   margin: 0;
 }
 
+@media (max-width: 940px) {
+  .head-home {
+    background-size: contain;
+    min-height: 58vh;
+    position: relative;
+  }
+  .top-bar,
+  .blog-bar {
+    width: 100%;
+  }
+  .top-bar .menu,
+  .blog-bar .menu {
+    width: 100%;
+  }
+  .top-bar .menu ul,
+  .blog-bar .menu ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 0 50%;
+            flex: 1 0 50%;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  .home-title h1 {
+    width: 50%;
+    font-size: 3rem;
+    padding-left: 12%;
+  }
+  .blue-sofa {
+    max-width: 55%;
+    position: absolute;
+    top: 30%;
+    left: 0;
+  }
+  .mid-image {
+    margin: 0 2%;
+  }
+  .new-pro {
+    position: relative;
+  }
+  .new-pro .poly-image img,
+  .new-pro .pro-image img {
+    width: 50%;
+    position: absolute;
+  }
+  .new-pro .pro-image img {
+    top: 67%;
+  }
+  .contact-form form {
+    width: 65%;
+  }
+  .contact-form form input {
+    width: 35%;
+  }
+  .contact-form form textarea {
+    width: 100%;
+  }
+  .contact-form .media-reach {
+    padding: 5% 1% 10% 0;
+  }
+}
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+  .head-home {
+    min-height: 47.3vh;
+    position: relative;
+  }
+  .home-title h1 {
+    font-size: 2.1rem;
+  }
+  .new-materia figure {
+    padding-top: 10%;
+  }
+  .new-materia figure h2 {
+    font-size: 1.25rem;
+  }
+  .custom-menu ul {
+    padding-left: 0;
+  }
+  .custom-menu ul h2 {
+    font-size: 1.25rem;
+  }
+  .new-pro {
+    position: relative;
+  }
+  .new-pro h2 {
+    font-size: 1.25rem;
+  }
+  .new-pro .pro-image img {
+    position: absolute;
+    top: 73%;
+  }
+  .comment-section {
+    padding-right: 0;
+  }
+  .comment-section .comment-pic-one {
+    width: 150%;
+  }
+  .comment-section .comment-pic-two {
+    width: 110%;
+  }
+  .comment-section p {
+    padding-left: 0;
+  }
+  .contact-form form {
+    position: absolute;
+    top: 60%;
+    left: 15%;
+  }
+  .contact-form form input {
+    width: 45%;
+  }
+  .contact-form .media-reach {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    padding: 45% 30% 5% 0;
+  }
+}
+
+@media (max-width: 480px) {
+  .head-home {
+    min-height: 100vh;
+    background-size: cover;
+  }
+  .home-title h1 {
+    font-size: 2.5rem;
+  }
+  .blue-sofa {
+    max-width: 90%;
+    position: absolute;
+    top: 85%;
+  }
+  .new-materia figure {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-flow: column-reverse nowrap;
+            flex-flow: column-reverse nowrap;
+  }
+  .new-materia figure img {
+    width: 85%;
+    margin-top: 30%;
+  }
+  .new-materia figure figcaption {
+    width: 100%;
+  }
+  .new-materia figure figcaption button {
+    margin: 3% 0 0 20%;
+  }
+  .new-materia figure h2 {
+    text-align: center;
+  }
+  .gallery {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .gallery .mid-image {
+    margin: 10% 0;
+  }
+  .mid-links {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .new-pro {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .new-pro .poly-local figcaption {
+    padding: 25% 0 5% 5%;
+    margin-left: 0;
+    width: 100%;
+  }
+  .new-pro .pro-basket figcaption {
+    padding: 5% 0 25% 5%;
+    width: 100%;
+  }
+  .new-pro .pro-basket img {
+    -webkit-box-shadow: -10px 10px #f8fb05;
+            box-shadow: -10px 10px #f8fb05;
+  }
+  .new-pro .poly-local img {
+    -webkit-box-shadow: 10px 10px #f8fb05;
+            box-shadow: 10px 10px #f8fb05;
+  }
+  .new-pro .pro-image img {
+    top: 87%;
+  }
+  .blog-head .blog-bar .menu ul,
+  .blog-head .contact-bar .menu ul,
+  .contact-head .blog-bar .menu ul,
+  .contact-head .contact-bar .menu ul {
+    display: none;
+  }
+  .blog-head .blog-bar .menu i,
+  .blog-head .contact-bar .menu i,
+  .contact-head .blog-bar .menu i,
+  .contact-head .contact-bar .menu i {
+    display: inline;
+  }
+  .main-content .late-post {
+    padding: 5% 0 0 5%;
+  }
+  .comment-section p {
+    padding-left: 10%;
+  }
+  form {
+    width: 50%;
+  }
+  .contact-form form {
+    width: 90%;
+    left: 3%;
+  }
+  .contact-form .media-reach {
+    padding: 65% 20% 5% 0;
+  }
+}
+
+@media (max-width: 320px) {
+  .top-bar {
+    width: 100%;
+  }
+  .top-bar .menu {
+    width: 100%;
+  }
+  .top-bar .menu ul {
+    display: none;
+  }
+  .top-bar .menu i {
+    display: inline;
+  }
+  .home-title h1 {
+    font-size: 1.85rem;
+    padding: 10% 0 0 0;
+  }
+  .blue-sofa {
+    min-width: 100%;
+  }
+  .new-materia figure img {
+    width: 90%;
+    margin: 40% 0 0 5%;
+    -webkit-box-shadow: -10px 10px #f8fb05;
+            box-shadow: -10px 10px #f8fb05;
+  }
+  .new-materia figure figcaption button {
+    margin: 3% 0 3% 10%;
+  }
+  .new-materia figure h2 {
+    text-align: center;
+  }
+  .new-pro .poly-local img {
+    width: 80%;
+  }
+  .new-pro .poly-local figcaption {
+    padding: 40% 0 5% 5%;
+    text-align: left;
+  }
+  .new-pro .pro-basket img {
+    width: 80%;
+  }
+  .new-pro .pro-basket figcaption {
+    padding: 0 0 70% 0;
+  }
+  .new-pro .pro-image img {
+    top: 87%;
+  }
+  .main-content {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+  }
+  .main-content .blog-post {
+    width: 100%;
+  }
+  .main-content .blog-post img {
+    width: 95%;
+  }
+  .main-content .late-post {
+    width: 100%;
+  }
+  .main-content .article-text {
+    padding: 30% 5% 0 8%;
+  }
+  form .short-input {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    padding: 10% 0;
+  }
+  form .short-input .mail {
+    margin-top: 3%;
+  }
+  form textarea {
+    padding-top: 5%;
+    width: 190%;
+  }
+  form input {
+    width: 100%;
+  }
+  .contact-form form {
+    width: 95%;
+    left: 2%;
+    -webkit-box-shadow: 10px 10px #f8fb05;
+            box-shadow: 10px 10px #f8fb05;
+  }
+  .contact-form form input {
+    width: 100%;
+  }
+  .contact-form .media-reach {
+    padding: 115% 0 10% 20%;
+  }
+}
+
 .blog-head .menu,
 .contact-head .menu {
   width: 100%;
@@ -725,4 +1080,35 @@ form button {
 .contact-head .menu a:hover,
 .contact-head .menu a:active {
   border-bottom: 5px solid #f8fb05;
+}
+
+.skip-link {
+  position: absolute;
+  left: -1000px;
+  top: 5px;
+  z-index: 999;
+  background: white;
+  color: black;
+}
+
+.skip-link:focus {
+  left: 0;
+}
+
+.menu i {
+  display: none;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }

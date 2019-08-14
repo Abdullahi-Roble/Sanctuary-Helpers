@@ -1,0 +1,514 @@
+
+// RESPONSIVE DESIGN
+
+    // Landscape Tablet / Small Desktops & Laptops Optimization
+
+@media (max-width: 940px) {
+
+    // Header
+
+    .head-home {
+        background-size: contain;
+        min-height: 58vh;
+        position: relative;
+    }
+
+    .top-bar,
+    .blog-bar {
+        width: 100%;
+
+        .menu {
+            width: 100%;
+
+            ul {
+                display: flex;
+                flex: 1 0 50%;
+                justify-content: space-around;
+            }
+        }
+    }
+
+    .home-title {
+
+        h1 {
+            width: 50%;
+            font-size: 3rem;
+            padding-left: 12%;
+        }
+    }
+
+    .blue-sofa {
+        max-width: 55%;
+        position: absolute;
+        top: 30%;
+        left: 0;
+    }
+
+    // Home Page, Section 2 - Gallery
+
+    .mid-image {
+        margin: 0 2%;
+    }
+
+    // Home Page, Section 4 - Image Blurbs
+
+    .new-pro {
+        position: relative;
+
+        .poly-image,
+        .pro-image {
+
+            img {
+                width: 50%;
+                position: absolute;
+            }
+        }
+
+        .pro-image img {
+            top: 67%;
+        }
+    }   
+    
+    // Contact Page, Form
+
+    .contact-form {
+
+        form {
+            width: 65%;
+
+            input {
+                width: 35%;
+            }
+
+            textarea {
+                width: 100%;
+            }
+        }
+
+        .media-reach {
+            padding: 5% 1% 10% 0;
+        }
+    }
+}
+
+    // Portrait Tablet / Landscape Phone Optimization
+
+@media (max-width: 768px) {
+
+    // General Styles
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    // Header Styling
+
+    .head-home {
+        min-height: 47.3vh;
+        position: relative;
+    }
+
+    .home-title h1 {
+        font-size: 2.1rem;
+    }
+
+    // Home Page, Section 1 
+
+    .new-materia {
+        figure {
+            padding-top: 10%;
+
+            h2 {
+                font-size: 1.25rem;
+            }
+        }
+    }
+
+    // Home Page, Section 3
+
+    .custom-menu ul {
+        padding-left: 0;
+
+        h2 {
+            font-size: 1.25rem;
+        }
+    }
+
+    // Home Page, Section 4
+
+    .new-pro {
+        position: relative;
+
+        h2 {
+            font-size: 1.25rem;
+        }
+
+        .pro-image img {
+            position: absolute;
+            top: 73%;
+        }
+    }
+
+    // BLog Page, Section 2 - Comment Section
+
+    .comment-section {
+        padding-right: 0;
+        
+        .comment-pic-one {
+            width: 150%;
+        }
+
+        .comment-pic-two {
+            width: 110%;
+        }
+
+        p {
+            padding-left: 0;
+        }
+    }
+
+    // Contact Page, Form
+
+    .contact-form {
+
+        form {
+            position: absolute;
+            top: 60%;
+            left: 15%;
+
+            input {
+                width: 45%;
+            }
+        }
+
+        .media-reach {
+            display: flex;
+            flex-flow: column nowrap;
+            padding: 45% 30% 5% 0;
+        }
+    }
+}
+
+    // Landscape / Portrait Phone Optimization
+
+@media (max-width: 480px) {
+
+    // Home Page Header
+
+    .head-home {
+        min-height: 100vh;
+        background-size: cover;
+    }    
+    
+    .home-title h1 {
+        font-size: 2.5rem;
+    }
+
+    .blue-sofa {
+        max-width: 90%;
+        position: absolute;
+        top: 85%;
+    }
+
+    // Home Page Section 1
+
+    .new-materia {
+        
+        figure {
+            display: flex;
+            flex-flow: column-reverse nowrap;
+
+            img {
+                width: 85%;
+                margin-top: 30%;
+            }
+
+            figcaption {
+                width: 100%;
+
+                button {
+                    margin: 3% 0 0 20%;
+                }
+            }
+
+            h2 {
+                text-align: center;
+            }
+        }
+    }
+
+    // Home Page Section 2
+
+    .gallery {
+        display: flex;
+        flex-flow: column nowrap;
+
+        .mid-image {
+            margin: 10% 0;
+        }
+    }
+
+    // Home Page Section 3
+
+    .mid-links {
+        display: flex;
+        flex-flow: column nowrap;
+    }
+
+    // Home Page Section 4
+    
+    .new-pro {
+        display: flex;
+        flex-flow: column nowrap;
+        justify-content: center;
+
+        .poly-local {
+
+            figcaption {
+                padding: 25% 0 5% 5%;
+                margin-left: 0;
+                width: 100%;
+            }
+        }
+
+        .pro-basket {
+
+            figcaption {
+                padding: 5% 0 25% 5%;
+                width: 100%;
+            }
+
+            img {
+                box-shadow: -10px 10px $yellow;
+            }
+        }
+
+        .poly-local img {
+            box-shadow: 10px 10px $yellow;
+        }
+
+        .pro-image img {
+            top: 87%;   
+        }
+    }
+
+    // Blog & Contact Page Header
+
+    .blog-head,
+    .contact-head {
+
+        .blog-bar,
+        .contact-bar {
+
+            .menu {
+
+                ul {
+                    display: none;
+                }
+
+                i {
+                    display: inline;
+                }
+            }
+        }
+    }
+
+    // Blog Page Main Section
+
+    .main-content {
+
+        .late-post {
+            padding: 5% 0 0 5%;
+        }
+    }
+
+    // Blog Page Comment Section
+
+    .comment-section {
+
+        p {
+            padding-left: 10%;
+        }
+    }
+
+    // Blog Page Form Section
+
+    form {
+        width: 50%;
+    }
+
+    // Contact Page Form Section
+
+    .contact-form {
+
+        form {
+            width: 90%;
+            left: 3%;
+        }
+
+        .media-reach {
+            padding: 65% 20% 5% 0;
+        }
+    }
+} 
+
+    // Small Portrait Phone Optimization
+
+@media (max-width: 320px) {
+
+    // Home Page Header 
+
+    .top-bar {
+        width: 100%;
+
+        .menu {
+            width: 100%;
+
+            ul {
+                display: none;
+            }
+
+            i {
+                display: inline;
+            }
+        }
+    }
+
+    .home-title {
+
+        h1 {
+            font-size: 1.85rem;
+            padding: 10% 0 0 0;
+        }
+    }
+
+    // Home Page Section 1 
+
+    .blue-sofa {
+        min-width: 100%;
+    }
+
+    .new-materia {
+        
+        figure {
+
+            img {
+                width: 90%;
+                margin: 40% 0 0 5%;
+                box-shadow: -10px 10px $yellow;
+            }
+
+            figcaption {
+
+                button {
+                    margin: 3% 0 3% 10%;
+                }
+            }
+
+            h2 {
+                text-align: center;
+            }
+        }
+    }
+
+    // Home Page Section 4 
+
+    .new-pro {
+        
+        .poly-local {
+
+            img {
+                width: 80%;
+            }
+
+            figcaption {
+                padding: 40% 0 5% 5%;
+                text-align: left;
+            }
+        }
+
+        .pro-basket {
+
+            img {
+                width: 80%;
+            }
+
+            figcaption {
+                padding: 0 0 70% 0;
+            }
+        }
+
+        .pro-image {
+
+            img {
+                top: 87%;
+            }
+        }
+    }
+
+    // Blog Page Main Section
+
+    .main-content {
+        display: flex;
+        flex-flow: column nowrap;
+
+        .blog-post {
+            width: 100%;
+
+            img {
+                width: 95%;
+            }
+        }
+
+        .late-post {
+            width: 100%;
+        }
+
+        .article-text {
+            padding: 30% 5% 0 8%;
+        }
+    }
+
+    // Blog Page Form Section
+
+    form {
+
+        .short-input {
+            display: flex;
+            flex-flow: column nowrap;
+            padding: 10% 0;
+
+            .mail {
+                margin-top: 3%;
+            }
+        }
+
+        textarea {
+            padding-top: 5%;
+            width: 190%;
+        }
+
+        input {
+            width: 100%;
+        }
+    }
+
+    // Contact Page Form
+
+    .contact-form {
+
+        form {
+            width: 95%;
+            left: 2%;
+            box-shadow: 10px 10px $yellow;
+            
+            input {
+                width: 100%;
+            }
+        }
+
+        .media-reach {
+            padding: 115% 0 10% 20%;
+        }
+    }
+}

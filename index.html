@@ -11,10 +11,12 @@
     <script src="https://kit.fontawesome.com/8e6d078a29.js"></script>
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content.</a>
     <header class="head-home">
         <div class="top-bar wrapper">
             <nav class="menu">
-                <ul>
+                <i class="fas fa-bars"></i>
+                <ul class="menu-main">
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
                     <li><a href="blog.html">Blog</a></li>
@@ -26,7 +28,7 @@
             <h1>Sanctuary Helpers</h1>
         </div>
     </header>
-    <main>
+    <main id="main-content">
         <div class="blue-sofa">
             <img src="assets/header-box.png" alt="Identical Navy Blue Armchairs next to one another">
         </div>
@@ -39,14 +41,14 @@
                         <a href="about.html">Find Out More</a>
                     </button>
                 </figcaption>
-                <img src="assets/small-box.jpg" alt="Quaint living room with a lavender purple sofa, rustic walls and an amateur painting">
+                <img src="assets/small-box.jpg" alt="Airy living room with a lavender purple sofa, rustic walls and an amateur painting">
             </figure>
         </section>
         <section class="gall-decor">
             <div class="gallery wrapper">
-                <img src="assets/gallery-image-1.jpg" alt="">
-                <img src="assets/gallery-image-2.jpg" alt="">
-                <img src="assets/gallery-image-3.jpg" alt="">
+                <img src="assets/gallery-image-1.jpg" alt="Sea green drawer with two picture frames and a brown jug with wheat">
+                <img class="mid-image" src="assets/gallery-image-2.jpg" alt="Cozy living room with a brown sofa and pillows, round mahogany coffee table with magazines, and a bean bag chair">
+                <img src="assets/gallery-image-3.jpg" alt="Close up view of a basket-style chair in a room next to a polished small black table with small flowers">
             </div>
         </section>
         <section class="custom-menu">
@@ -97,7 +99,9 @@
         </section>
         <section class="new-pro">
             <figure class="poly-local">
-                <img src="assets/left-image.jpg" alt="White polygonal chairs at a small table with a bonsai tree">
+                <div class="poly-image">
+                    <img src="assets/left-image.jpg" alt="White polygonal chairs at a small table with a bonsai tree">
+                </div>
                 <div class="wrapper">
                     <figcaption>
                         <h2>New Locations</h2>
@@ -114,7 +118,9 @@
                         <button><a href="">Read More</a></button>
                     </figcaption>
                 </div>
-                <img src="assets/right-image.jpg" alt="Small backyard area with basket chairs and a basket plant">
+                <div class="pro-image">
+                    <img src="assets/right-image.jpg" alt="Small backyard area with basket chairs and a basket plant">
+                </div>
             </figure>
         </section>
         <section class="style-decor">

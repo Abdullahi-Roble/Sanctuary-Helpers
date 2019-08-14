@@ -11,12 +11,14 @@
     <script src="https://kit.fontawesome.com/8e6d078a29.js"></script>
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content.</a>
     <header class="contact-head">
         <div class="blog-bar wrapper">
             <nav class="menu">
                 <div class="logo">
                     <h4>Sanctuary Helpers</h4>
                 </div>
+                    <i class="fas fa-bars"></i>
                 <ul>
                     <li><a href="index.html">Home</a></li>
                     <li><a href="about.html">About</a></li>
@@ -29,32 +31,38 @@
             <h1>Get in Touch</h1>
         </div>
     </header>
-    <section class="contact-form">
-        <form action="#" method="GET" class="message-form" name="message-form">
-            <div class="short-input">
-                <input type="text" placeholder="Name" name="Name" required="true">
-                <input type="email" placeholder="Email address" name="Email" required="true">
+    <main id="main-content">
+        <section class="contact-form">
+            <form action="#" method="GET" class="message-form" name="message-form">
+                <div class="short-input">
+                    <label class="visually-hidden" for="name">Your Name</label>
+                    <input type="text" placeholder="Name" name="Name" id="name" required="true">
+                    
+                    <label class="visually-hidden" for="email">Email Address</label>
+                    <input type="email" placeholder="Email address" name="Email" id="name" required="true">
+                </div>
+                <label class="visually-hidden" for="message">Message</label>
+                <textarea placeholder="Message" name="Message" id="message" required="true" cols="50" rows="8"></textarea>
+                <button type="submit">Submit</button>
+            </form>
+            <div class="media-reach">
+                <div class="social-media">
+                    <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
+                    <p>info@email.com</p>
+                </div>
+                <div class="contact-info">
+                    <p>123-456-7890</p>
+                    <p>123 Queen Street West</p>
+                    <p>Unit 10</p>
+                    <p>Toronto, Ontario</p>
+                    <p>M5V2D5</p>
+                </div>
             </div>
-            <textarea placeholder="Message" name="Message" required="true" cols="50" rows="8"></textarea>
-            <button type="submit">Submit</button>
-        </form>
-        <div class="media-reach">
-            <div class="social-media">
-                <a href="https://www.facebook.com/"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
-                <a href="https://www.twitter.com/"><i class="fab fa-twitter"></i></a>
-                <a href="https://www.whatsapp.com/"><i class="fab fa-whatsapp"></i></a>
-                <p>info@email.com</p>
-            </div>
-            <div class="contact-info">
-                <p>123-456-7890</p>
-                <p>123 Queen Street West</p>
-                <p>Unit 10</p>
-                <p>Toronto, Ontario</p>
-                <p>M5V2D5</p>
-            </div>
-        </div>
-    </section>
+        </section>
+    </main>
     <footer>
         <div>
             <p>Copywright © 2019 HackerYou</p>

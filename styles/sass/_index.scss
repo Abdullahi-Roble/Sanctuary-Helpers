@@ -19,7 +19,6 @@
             flex: 1 0 50%;
             justify-content: space-around;
             list-style: none;
-            // padding: 3% 3.5% 0 0;
         }
 
         a {
@@ -46,8 +45,9 @@
 
 .blue-sofa {
     position: absolute;
-    top: 300px;
-    left: -80px;
+    top: 40%;
+    left: -5.3%;
+    max-width: 100%;
 }
 
 // Main Styling
@@ -193,4 +193,4 @@ footer {
         color: $white;
         margin: 0;
     }
-}    
+}

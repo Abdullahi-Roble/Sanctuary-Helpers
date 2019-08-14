@@ -1,10 +1,14 @@
+
+// Imports
+
 @import "setup";
 @import "variables";
 @import "index";
 @import "blog";
 @import "contact";
+@import "queries";
 
-    // General Header Styling
+// General Header Styling
 
 .blog-head,
 .contact-head {
@@ -17,7 +21,6 @@
 
         ul {
             width: 40%;
-            // flex: 1 0 50%;
             display: flex;
             justify-content: space-around;
             list-style: none;
@@ -42,4 +45,38 @@
             }
         }
     }
+}
+
+// Skip Link Styling
+
+.skip-link {
+    position: absolute;
+    left: -1000px;
+    top: 5px;
+    z-index: 999;
+    background: white;
+    color: black;
+}
+
+.skip-link:focus {
+    left: 0;
+}
+
+// Hidden Styling
+
+.menu i {
+    display: none;
+}
+
+.visually-hidden:not(:focus):not(:active) {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
